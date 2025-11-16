@@ -10,7 +10,7 @@
   <name>ПЗТ_ЗадачаПользователяТелеграм</name>
   <synonym>
     <key>ru</key>
-    <value>Задача пользователя телеграм</value>
+    <value>Задача пользователя Телеграм</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ПЗТ_ЗадачаПользователяТелеграм.StandardAttribute.Number</inputByString>
@@ -61,11 +61,11 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Задача пользователя телеграм</value>
+    <value>Задача пользователя Телеграм</value>
   </objectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Задачи пользователей телеграм</value>
+    <value>Задачи пользователей Телеграм</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>

@@ -10,7 +10,7 @@
   <name>ПЗТ_ТокеныУправленияТелеграмБотами</name>
   <synonym>
     <key>ru</key>
-    <value>Токены управления Telegram-ботами</value>
+    <value>Токены управления Телеграм-ботами</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ПЗТ_ТокеныУправленияТелеграмБотами.StandardAttribute.Description</inputByString>
@@ -97,7 +97,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Токен управления Telegram-ботом</value>
+    <value>Токен управления Телеграм-ботом</value>
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>

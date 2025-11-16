@@ -3,7 +3,7 @@
   <name>ПЗТ_ЗагрузкаЗадачПользователейИзТелеграм</name>
   <synonym>
     <key>ru</key>
-    <value>Загрузка задач пользователей из телеграм</value>
+    <value>Загрузка задач пользователей из Телеграм</value>
   </synonym>
   <methodName>CommonModule.ПЗТ_ПланировщикЗадачТелеграмСервер.ПолучитьЗадачиОтПользователейТелеграм</methodName>
   <predefined>true</predefined>
