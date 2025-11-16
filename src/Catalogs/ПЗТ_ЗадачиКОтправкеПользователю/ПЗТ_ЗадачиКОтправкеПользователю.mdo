@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57fa18a5-549f-4462-b4f7-ba677d2287f0">
+  <producedTypes>
+    <objectType typeId="f3fba2a8-f0a5-43a9-8fb3-f5407a627057" valueTypeId="96fafe27-8c07-4a80-baa7-6de3c31f3bf8"/>
+    <refType typeId="44cf85e3-7c1a-4256-a0bf-997bfe34335d" valueTypeId="0b470116-b230-4f6d-8d41-d54bdae4b8cd"/>
+    <selectionType typeId="b18bed0d-c68a-4d9f-b1ec-55d8a6e7011a" valueTypeId="a2fdec4d-6963-4289-901b-9b85cce80e81"/>
+    <listType typeId="4140908c-ecea-4281-a638-a2ed34df81f8" valueTypeId="cf1fabec-e52e-49c9-814e-4b853d3b01d8"/>
+    <managerType typeId="11ddabec-427d-4e3f-93d5-c5fc7adf3c23" valueTypeId="e8418b23-2bda-4c58-b40c-51a15e4274d8"/>
+  </producedTypes>
+  <name>ПЗТ_ЗадачиКОтправкеПользователю</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи к отправке пользователю</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Задача к отправке пользователю</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="02404cab-158e-45c4-b5e0-3f88069cccb5">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПЗТ_ЗадачаПользователяТелеграм</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

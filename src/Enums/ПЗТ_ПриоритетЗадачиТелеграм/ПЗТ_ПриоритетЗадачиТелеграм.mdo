@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a431ddba-353c-4417-895e-7ad4eacd74cf">
+  <producedTypes>
+    <refType typeId="2227364e-f313-4fef-8c77-fe7757a0cc44" valueTypeId="c3cdda9f-a3ac-47db-bd42-960d821bc5d6"/>
+    <listType typeId="2278b237-6f3e-42db-a12d-ec523c1e57a7" valueTypeId="bfb15e22-dde4-42e7-bde1-027a130a1686"/>
+    <managerType typeId="20a29422-20c1-4274-b71a-998ae7f94c01" valueTypeId="9682b799-fc4f-4d4b-a61c-41d513a0d044"/>
+  </producedTypes>
+  <name>ПЗТ_ПриоритетЗадачиТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритет задачи телеграм</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="56bd5eee-0ff5-41dc-830c-756a01527ff9">
+    <name>Низкий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Низкий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40cb8180-7af6-452a-a5db-40df4eeba4aa">
+    <name>Средний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd160e53-5acf-4d59-8c63-409562e1b8b4">
+    <name>Высокий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

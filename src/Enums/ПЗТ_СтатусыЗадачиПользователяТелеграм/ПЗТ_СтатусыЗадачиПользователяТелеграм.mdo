@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b257e1e-d24c-42ae-bf9f-d6e1fc0a0acd">
+  <producedTypes>
+    <refType typeId="32022a74-fa73-4703-aa76-e85ef133ef86" valueTypeId="f7328cbf-027b-48aa-b21e-4f90410ce2ca"/>
+    <listType typeId="3de2a5eb-1f70-4328-a388-d9260d065e5b" valueTypeId="f88daec8-56b1-48fa-967e-fc341d7eaeb0"/>
+    <managerType typeId="d50067b9-51b1-43fe-9b78-a8092a452c6c" valueTypeId="b2a4d234-22e0-4d12-a9ec-8db2f0313c32"/>
+  </producedTypes>
+  <name>ПЗТ_СтатусыЗадачиПользователяТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задачи пользователя телеграм</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="81745fab-91ca-4c17-a321-1940d51f23e8">
+    <name>Создана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a5ccc21-3119-4475-8039-3c6ff187734d">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8fe84e2-f7b8-48b2-a811-0c29c5f73f7f">
+    <name>Бэклог</name>
+    <synonym>
+      <key>ru</key>
+      <value>В бэклог</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6083e5a8-6d37-49cf-8dfb-3d32ebd2b40c">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a32115a1-ef70-4d33-9d34-aabe05b70721">
+    <name>НеБудетВыполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не будет выполнена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

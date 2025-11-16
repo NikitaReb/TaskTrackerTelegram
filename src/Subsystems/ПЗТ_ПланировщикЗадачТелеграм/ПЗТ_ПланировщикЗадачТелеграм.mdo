@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59aea317-69ae-490d-8ece-643a13c94a57">
+  <name>ПЗТ_ПланировщикЗадачТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планировщик задач телеграм</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПЗТ_Телеграм</picture>
+  </picture>
+  <content>CommonModule.ПЗТ_ПланировщикЗадачТелеграмСервер</content>
+  <content>Role.ПЗТ_ОсновнаяРоль</content>
+  <content>ScheduledJob.ПЗТ_ЗагрузкаЗадачПользователейИзТелеграм</content>
+  <content>CommonForm.ПЗТ_НастройкиПланировщикаЗадачТелеграм</content>
+  <content>Constant.ПЗТ_ТокенУправленияТелеграмБотом</content>
+  <content>Catalog.ПЗТ_ТокеныУправленияТелеграмБотами</content>
+  <content>Document.ПЗТ_ЗадачаПользователяТелеграм</content>
+  <content>Enum.ПЗТ_СтатусыЗадачиПользователяТелеграм</content>
+  <content>Enum.ПЗТ_ПриоритетЗадачиТелеграм</content>
+  <content>CommonPicture.ПЗТ_Телеграм</content>
+  <content>Catalog.ПЗТ_ЗадачиКОтправкеПользователю</content>
+</mdclass:Subsystem>

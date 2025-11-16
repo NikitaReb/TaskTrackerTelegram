@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b44520c-dc72-4c4b-ab7e-bfac003ef61f">
+  <name>ПЗТ_ПланировщикЗадачТелеграмСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планировщик задач телеграм сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
