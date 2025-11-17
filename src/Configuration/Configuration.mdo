@@ -29,7 +29,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПЗТ_ОсновнаяРоль</defaultRoles>
   <vendor>Ребриков Никита Андреевич</vendor>
-  <version>1.0.1.1</version>
+  <version>1.0.1.2</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="c094fd86-a903-4b13-a255-ef245a5a6a78" extendedConfigurationObject="ad571bdb-e649-45bc-9210-8b4b7e24285a">

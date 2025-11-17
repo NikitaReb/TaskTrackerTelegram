@@ -129,7 +129,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.НомерПоследненгоПринятогоСообщения</segments>
+        <segments>Список.НомерПоследнегоПринятогоСообщения</segments>
       </dataPath>
       <extendedTooltip>
         <name>НомерПоследненгоПринятогоСообщенияРасширеннаяПодсказка</name>

@@ -195,7 +195,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ИмяПользователя</name>
+      <name>ПубличноеИмяПользователя</name>
       <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -203,10 +203,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ИмяПользователя</segments>
+        <segments>Список.ПубличноеИмяПользователя</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ИмяПользователяРасширеннаяПодсказка</name>
+        <name>ПубличноеИмяПользователяРасширеннаяПодсказка</name>
         <id>33</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -216,8 +216,44 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ИмяПользователяКонтекстноеМеню</name>
+        <name>ПубличноеИмяПользователяКонтекстноеМеню</name>
         <id>32</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ИмяФамилияПользователя</name>
+      <id>45</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ИмяФамилияПользователя</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ИмяФамилияПользователяРасширеннаяПодсказка</name>
+        <id>47</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ИмяФамилияПользователяКонтекстноеМеню</name>
+        <id>46</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>

@@ -147,10 +147,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="38792d8e-7636-4a5f-8b9f-af3235d2c4c2">
-    <name>ИмяПользователя</name>
+    <name>ПубличноеИмяПользователя</name>
     <synonym>
       <key>ru</key>
-      <value>Имя пользователя</value>
+      <value>Публичное имя пользователя</value>
     </synonym>
     <type>
       <types>String</types>
@@ -160,7 +160,26 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c7249901-9e0e-41a1-b868-2df788ec41b5">
+    <name>ИмяФамилияПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя и фамилия пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>

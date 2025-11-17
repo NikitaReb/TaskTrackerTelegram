@@ -428,10 +428,10 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ГруппаИмяПользователяТелеграм</name>
+        <name>ГруппаПубличноеИмяПользователя</name>
         <id>281</id>
         <items xsi:type="form:FormField">
-          <name>ИмяПользователяТелеграм</name>
+          <name>ПубличноеИмяПользователя</name>
           <id>19</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -439,10 +439,10 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.ИмяПользователя</segments>
+            <segments>Объект.ПубличноеИмяПользователя</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ИмяПользователяТелеграмРасширеннаяПодсказка</name>
+            <name>ПубличноеИмяПользователяРасширеннаяПодсказка</name>
             <id>21</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -452,7 +452,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ИмяПользователяТелеграмКонтекстноеМеню</name>
+            <name>ПубличноеИмяПользователяКонтекстноеМеню</name>
             <id>20</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -485,7 +485,7 @@
             </extInfo>
           </extendedTooltip>
           <type>UsualButton</type>
-          <commandName>Form.Command.СкопироватьИмяПользователя</commandName>
+          <commandName>Form.Command.СкопироватьПубличноеИмяПользователя</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -499,15 +499,113 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Группа имя пользователя телеграм</value>
+          <value>Группа публичное имя пользователя</value>
         </title>
         <toolTip>
           <key>ru</key>
-          <value>Группа имя пользователя телеграм</value>
+          <value>Группа публичное имя пользователя</value>
         </toolTip>
         <extendedTooltip>
-          <name>ГруппаИмяПользователяТелеграмРасширеннаяПодсказка</name>
+          <name>ГруппаПубличноеИмяПользователяРасширеннаяПодсказка</name>
           <id>282</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
+          <behavior>Auto</behavior>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаИмяФамилияПользователя</name>
+        <id>288</id>
+        <items xsi:type="form:FormField">
+          <name>ИмяФамилияПользователя</name>
+          <id>285</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИмяФамилияПользователя</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ИмяФамилияПользователяРасширеннаяПодсказка</name>
+            <id>287</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ИмяФамилияПользователяКонтекстноеМеню</name>
+            <id>286</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:LabelFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Button">
+          <name>СкопироватьИмяФамилиюПользователя</name>
+          <id>290</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>СкопироватьИмяФамилиюПользователяРасширеннаяПодсказка</name>
+            <id>291</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualButton</type>
+          <commandName>Form.Command.СкопироватьИмяФамилиюПользователя</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа имя фамилия пользователя</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа имя фамилия пользователя</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаИмяФамилияПользователяРасширеннаяПодсказка</name>
+          <id>289</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -897,15 +995,15 @@
     <savedData>true</savedData>
   </attributes>
   <formCommands>
-    <name>СкопироватьИмяПользователя</name>
+    <name>СкопироватьПубличноеИмяПользователя</name>
     <title>
       <key>ru</key>
-      <value>Скопировать имя пользователя</value>
+      <value>Скопировать публичное имя пользователя</value>
     </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Скопировать имя пользователя</value>
+      <value>Скопировать публичное имя пользователя</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -915,7 +1013,32 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>СкопироватьИмяПользователя</name>
+        <name>СкопироватьПубличноеИмяПользователя</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СкопироватьИмяФамилиюПользователя</name>
+    <title>
+      <key>ru</key>
+      <value>Скопировать имя и фамилию пользователя</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Скопировать имя и фамилию пользователя</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ПЗТ_СкопироватьВБуферОбмена</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СкопироватьПубличноеИмяФамилиюПользователя</name>
       </handler>
     </action>
     <representation>Picture</representation>
